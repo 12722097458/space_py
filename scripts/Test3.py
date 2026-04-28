@@ -34,7 +34,7 @@ for num in numbers:
 # 6. pass 语句
 for num in numbers:
     if num == 3:
-        pass  # 占位语句，不做任何操作
+        pass
     print(num)
 
 # 7. try-except-else-finally 异常处理
@@ -57,28 +57,19 @@ while count < 10:
     print(f"这是第 {count + 1} 次循环")
     count += 1
 
-# range() 函数在 Python 中非常灵活，除了基本的使用方式，还有以下几种常见用法：
-
-# 1. 指定起始值和结束值
-# 从 5 开始，到 10 结束（不包含 10）
+# range() 函数常见用法
 for i in range(5, 10):
     print(i)
 
-# 2. 指定起始值、结束值和步长
-# 从 0 开始，到 10 结束（不包含 10），步长为 2
 for i in range(0, 10, 2):
     print(i)
 
-# 3. 倒序遍历
-# 从 10 开始，到 0 结束（不包含 0），步长为 -1
 for i in range(10, 0, -1):
     print(i)
 
-# 4. 与 len() 结合遍历列表索引
 fruits = ["apple", "banana", "cherry"]
 for i in range(len(fruits)):
     print(f"索引 {i} 对应的水果是: {fruits[i]}")
 
-# 5. 创建列表
 numbers = list(range(5))
-print(numbers)  # 输出: [0, 1, 2, 3, 4]
+print(numbers)

@@ -40,19 +40,19 @@ print(f"小于等于比较: {a <= b}")
 
 # 赋值运算符
 c = 5
-c += a  # 等同于 c = c + a
+c += a
 print(f"加法赋值后 c 的值: {c}")
-c -= a  # 等同于 c = c - a
+c -= a
 print(f"减法赋值后 c 的值: {c}")
-c *= a  # 等同于 c = c * a
+c *= a
 print(f"乘法赋值后 c 的值: {c}")
-c /= a  # 等同于 c = c / a
+c /= a
 print(f"除法赋值后 c 的值: {c}")
-c //= a  # 等同于 c = c // a
+c //= a
 print(f"取整除法赋值后 c 的值: {c}")
-c %= a  # 等同于 c = c % a
+c %= a
 print(f"取模赋值后 c 的值: {c}")
-c **= a  # 等同于 c = c ** a
+c **= a
 print(f"幂运算赋值后 c 的值: {c}")
 
 # 逻辑运算符
@@ -63,8 +63,8 @@ print(f"逻辑或: {x or y}")
 print(f"逻辑非: {not x}")
 
 # 位运算符
-p = 5  # 二进制: 0101
-q = 3  # 二进制: 0011
+p = 5
+q = 3
 print(f"按位与: {p & q}")
 print(f"按位或: {p | q}")
 print(f"按位异或: {p ^ q}")
