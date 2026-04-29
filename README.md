@@ -17,6 +17,8 @@
 pip install -r requirements.txt
 ```
 
+`requirements.txt` 现在同时包含 FastAPI 运行依赖，以及 `tools/phone_to_country.py` 这类工具脚本需要的基础依赖。
+
 ## 安装开发依赖
 
 ```bash
